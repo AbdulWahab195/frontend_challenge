@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.ellipsis-two-line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;  /* limit to 2 lines */
+}
+
+.ellipsis-three-line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;  /* limit to 3 lines */
+}
+
+.date-picker-style .react-date-picker__wrapper{
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  padding: 0 9px;
+}
